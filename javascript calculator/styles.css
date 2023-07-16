@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #643b3b;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.form{
+    background-color: rgb(29, 29, 66);
+    padding: 30px;
+    box-shadow: 0 5px 10px grey ;
+    border-radius: 15px;
+    margin: 100px;
+    color: rgb(153, 151, 151);
+    
+    
+}
+.input{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    border: solid 4px black;
+    color: black;
+}
+.input::placeholder{
+    color:rgb(63, 48, 48) ;
+    font-family: monospace;
+}
+.button{
+    background-color: rgb(58, 56, 56);
+    color: rgb(148, 144, 144);
+    border: none;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-family: cursive;
+    font-size: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px grey;
+    cursor: pointer;
+}
+.button:hover{
+    filter: brightness(0.9);
+}
+.score{
+    color: rgb(151, 143, 143);
+    text-align: right;
+}
